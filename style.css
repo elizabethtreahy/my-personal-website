@@ -10,6 +10,14 @@ body {
       margin-right: auto;
       width: 100%;
   }
-  p {
+  #title-div {
+      position: relative;
       text-align: center;
+  }
+  #name-header {
+      color: rgb(131, 122, 122);
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%, -50%);
   }
