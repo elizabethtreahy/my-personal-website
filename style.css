@@ -1,10 +1,11 @@
 body {
     background: rgb(255, 250, 250);
+    margin: 0px;
   }
   h1 {
       text-align: center;
   }
-  img {
+  body div img#header-image {
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -17,7 +18,100 @@ body {
   #name-header {
       color: rgb(131, 122, 122);
       position: absolute;
+      font-weight: lighter;
       top: 10%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
+  #name-header:hover {
+    color: white;
+    position: absolute;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: bolder;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+img#seated-on-rocks {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/* 
+EVERYTHING BELOW 
+BELONGS TO 
+MY STORY CONTAINER 
+*/
+#my-story-container-right {
+    display: block;
+    width: 30%;
+    margin-left: 20px; 
+    margin-right: auto; 
+} 
+#my-story-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 65px;
+}
+#my-story-container-left {
+    display: block;
+    margin-left: auto; 
+    margin-right: 20px; 
+    width: 30%;
+    text-align: right;
+} 
+#sunflower {
+    width: 100%;
+}
+#my-story-header {
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+#my-story-header:hover {
+    font-style: italic;
+}
+#my-story-caption {
+    font-size: 45px;
+    margin-left: 100px
+}
+/* 
+EVERYTHING ABOVE 
+BELONGS TO 
+MY STORY CONTAINER 
+*/
+#books-container-right {
+    display: block;
+    width: 30%;
+    margin-left: 20px;
+} 
+#books-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 65px;
+}
+#books-container-left {
+    display: block;
+    width: 30%;
+    margin-right: 20px;
+} 
+#giving {
+    width: 100%;
+}
+#books {
+    font-size: 100px;
+    margin-bottom: 0px;
+    
+}
+#books:hover {
+    font-style: italic;
+}
+#giving-caption {
+    font-size: 45px;
+    margin-right: 100px
+}
