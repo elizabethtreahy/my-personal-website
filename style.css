@@ -153,8 +153,8 @@ MY STORY CONTAINER
 }
 a:-webkit-any-link#link-removal {
     text-decoration: none;
+    color: rgb(131, 122, 122);
 }
-
 /* END BOOKS CONTAINER */
 
 /* DREAMS CONTIANER */
