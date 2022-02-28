@@ -35,6 +35,12 @@ body {
     transform: translate(-50%, -50%);
   }
 
+  #creator-link {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+  }
+
 /* 
 EVERYTHING BELOW 
 BELONGS TO 
