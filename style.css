@@ -141,6 +141,7 @@ MY STORY CONTAINER
     text-align: center;
     font-size: 16px;
     color: rgb(131, 122, 122);
+    
 }
 #books-story:hover {
     background: white;
@@ -150,6 +151,10 @@ MY STORY CONTAINER
     color: rgb(131, 122, 122);
     font-style: italic;
 }
+a:-webkit-any-link#link-removal {
+    text-decoration: none;
+}
+
 /* END BOOKS CONTAINER */
 
 /* DREAMS CONTIANER */
