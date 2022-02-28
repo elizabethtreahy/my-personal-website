@@ -19,26 +19,22 @@ body {
       color: rgb(131, 122, 122);
       position: absolute;
       font-weight: lighter;
+      font-size: 90px;
       top: 10%;
       left: 50%;
       transform: translate(-50%, -50%);
   }
   #name-header:hover {
-    color: white;
+    color: rgb(131, 122, 122);
     position: absolute;
-    font-size: 100px;
+    font-size: 110px;
     font-style: italic;
     font-weight: bolder;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-img#seated-on-rocks {
-    width: 40%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
+
 /* 
 EVERYTHING BELOW 
 BELONGS TO 
@@ -83,6 +79,9 @@ EVERYTHING ABOVE
 BELONGS TO 
 MY STORY CONTAINER 
 */
+
+
+/* BOOKS CONTAINER */
 #books-container-right {
     display: block;
     width: 30%;
@@ -115,3 +114,42 @@ MY STORY CONTAINER
     font-size: 45px;
     margin-right: 100px
 }
+/* END BOOKS CONTAINER */
+
+/* DREAMS CONTIANER */
+
+#dreans-container-right {
+    display: block;
+    /* width: 30%; */
+    margin-left: 40px; 
+    margin-right: 30%; 
+} 
+#dreams-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 65px;
+}
+#dreams-container-left {
+    display: block;
+    margin-left: 30%; 
+    margin-right: 40px; 
+    width: 30%;
+    text-align: right;
+} 
+#beach {
+    width: 47%;
+}
+#dreams-header {
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+#dreams-header:hover {
+    font-style: italic;
+}
+#dreams-caption {
+    font-size: 45px;
+    /* margin-left: 100px */
+}
+
