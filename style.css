@@ -10,6 +10,7 @@ body {
       margin-left: auto;
       margin-right: auto;
       width: 100%;
+      height: auto;
   }
   #title-div {
       position: relative;
@@ -24,7 +25,7 @@ body {
       left: 50%;
       transform: translate(-50%, -50%);
   }
-  #name-header:hover {
+  /* #name-header:hover {
     color: rgb(131, 122, 122);
     position: absolute;
     font-size: 110px;
@@ -33,7 +34,7 @@ body {
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+  } */
 
   #creator-link {
       padding-top: 20px;
